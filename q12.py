@@ -21,3 +21,4 @@ anysentence = input("ENTER ANY WORD: ")
 upper_count, lower_count = upper_and_lower_counter(anysentence)
 print("No. of Upper case characters:", upper_count)
 print("No. of Lower case characters:", lower_count)
+
