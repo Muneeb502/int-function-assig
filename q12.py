@@ -17,7 +17,7 @@ def upper_and_lower_counter(anysentence):
             count_lower += 1
     return count_upper, count_lower
 
-anysentence = input("ENTER ANY WORD: ")
+anysentence = input("ENTER ANY WORD:")
 upper_count, lower_count = upper_and_lower_counter(anysentence)
 print("No. of Upper case characters:", upper_count)
 print("No. of Lower case characters:", lower_count)
